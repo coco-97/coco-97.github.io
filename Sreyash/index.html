@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rashid Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box" style="position: relative; display: inline-block; border-radius: 50%; padding: 5px; background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet); box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.5), inset -2px -2px 5px rgba(0, 0, 0, 0.2);">
+          <img src="./assets/images/my-avatar.png" style="border-radius: 50%; display: block; width: 145.6px; height: 145.6px;" alt="Sreyash Srivastava">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Sreyash Srivastava">Sreyash Srivastava</h1>
+
+          <p class="title" style="font-size: 15px; ">iOS developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:ssrivastava7031@gmail.com" class="contact-link">ssrivastava7031@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+917905333679" class="contact-link">+91 7905333679</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Hyderabad, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://stackoverflow.com/users/10048386/coco97" target="_blank" class="social-link">
+              <ion-icon name="logo-stackoverflow"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/coco-97" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/sreyash-srivastava/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" style="font-size: 15px; font-weight: bold;" data-nav-link="about">About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" style="font-size: 15px; font-weight: bold;" data-nav-link="education">Education</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" style="font-size: 15px; font-weight: bold;" data-nav-link="contact">Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Senior Software Engineer with over 4 years of experience in iOS development, with expertise in optimizing app performance, implementing scalable architectures, and integrating advanced features for high-impact applications in the sports betting and beverage industries.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps (iOS)</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX deisgning</h4>
+
+                <p class="service-item-text">
+                  I have hobby to design apps, create wireframes, mockups, and interactive prototypes in XD and Figma.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section class="skills-techs-container" style="display: flex; gap: 20px; align-items: flex-start;">
+
+          <section class="skill" style="flex: 1;">
+
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">iOS development</h5>
+                  <data value="95">95%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%;"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">UI/UX</h5>
+                  <data value="50">50%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%;"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web development</h5>
+                  <data value="30">30%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 30%;"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Backend PHP Laravel</h5>
+                  <data value="35">35%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 35%;"></div>
+                </div>
+              </li>
+
+            </ul>
+
+          </section>
+
+          <section class="techs" style="flex: 1;">
+
+            <h3 class="h3 techs-title">Techs</h3>
+
+            <ul class="techs-list content-card" style="display: flex; flex-wrap: wrap; gap: 10px;">
+
+              <li class="techs-item" style="background-color: #e0e0e0; padding: 8px 12px; border-radius: 20px; box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;">
+                <span style="font-size: 14px;">UIKit</span>
+              </li>
+          
+              <li class="techs-item" style="background-color: #e0e0e0; padding: 8px 12px; border-radius: 20px; box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;">
+                <span style="font-size: 14px;">SwiftUI</span>
+              </li>
+          
+              <li class="techs-item" style="background-color: #e0e0e0; padding: 8px 12px; border-radius: 20px; box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;">
+                <span style="font-size: 14px;">CoreData</span>
+              </li>
+          
+              <li class="techs-item" style="background-color: #e0e0e0; padding: 8px 12px; border-radius: 20px; box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;">
+                <span style="font-size: 14px;">Combine</span>
+              </li>
+          
+              <li class="techs-item" style="background-color: #e0e0e0; padding: 8px 12px; border-radius: 20px; box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;">
+                <span style="font-size: 14px;">MVVM</span>
+              </li>
+          
+              <li class="techs-item" style="background-color: #e0e0e0; padding: 8px 12px; border-radius: 20px; box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;">
+                <span style="font-size: 14px;">MVC</span>
+              </li>
+          
+              <li class="techs-item" style="background-color: #e0e0e0; padding: 8px 12px; border-radius: 20px; box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;">
+                <span style="font-size: 14px;">Design Pattern</span>
+              </li>
+          
+              <li class="techs-item" style="background-color: #e0e0e0; padding: 8px 12px; border-radius: 20px; box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;">
+                <span style="font-size: 14px;">Swift</span>
+              </li>
+          
+              <li class="techs-item" style="background-color: #e0e0e0; padding: 8px 12px; border-radius: 20px; box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;">
+                <span style="font-size: 14px;">ARC</span>
+              </li>
+          
+              <li class="techs-item" style="background-color: #e0e0e0; padding: 8px 12px; border-radius: 20px; box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;">
+                <span style="font-size: 14px;">REST API</span>
+              </li>
+          
+              <li class="techs-item" style="background-color: #e0e0e0; padding: 8px 12px; border-radius: 20px; box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;">
+                <span style="font-size: 14px;">GCD</span>
+              </li>
+          
+              <li class="techs-item" style="background-color: #e0e0e0; padding: 8px 12px; border-radius: 20px; box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;">
+                <span style="font-size: 14px;">Git</span>
+              </li>
+          
+              <li class="techs-item" style="background-color: #e0e0e0; padding: 8px 12px; border-radius: 20px; box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;">
+                <span style="font-size: 14px;">System Design</span>
+              </li>
+          
+              <li class="techs-item" style="background-color: #e0e0e0; padding: 8px 12px; border-radius: 20px; box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;">
+                <span style="font-size: 14px;">Multithreading</span>
+              </li>
+          
+              <li class="techs-item" style="background-color: #e0e0e0; padding: 8px 12px; border-radius: 20px; box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;">
+                <span style="font-size: 14px;">WebSockets</span>
+              </li>
+          
+              <li class="techs-item" style="background-color: #e0e0e0; padding: 8px 12px; border-radius: 20px; box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;">
+                <span style="font-size: 14px;">XCTest</span>
+              </li>
+          
+              <li class="techs-item" style="background-color: #e0e0e0; padding: 8px 12px; border-radius: 20px; box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;">
+                <span style="font-size: 14px;">CI/CD</span>
+              </li>
+          
+              <li class="techs-item" style="background-color: #e0e0e0; padding: 8px 12px; border-radius: 20px; box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;">
+                <span style="font-size: 14px;">Firebase</span>
+              </li>
+          
+            </ul>
+          
+          </section>
+          
+
+        </section><br>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+        <!--
+        - #Experience
+      -->
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Senior iOS Engineer<label style="font-style: italic; font-size: 12px; font-weight: 100;"> - Ivy Comptech</label></h4>
+
+              <span>02/2023 - 02/2025</span>
+              <span style="color: lightgray; font-style: italic; font-size: 12px; font-weight: 100;">
+                <ion-icon name="location-outline" style="color: lightgray; float: left;" size="small"></ion-icon>
+                Hyderabad, India
+              </span><br>
+
+              <p class="timeline-text">
+                • Contributed to the development of a real-time multiplayer Poker app for Entain, supporting over 5,000 concurrent users with low-latency gameplay using WebSockets.<br>
+                • Optimized dynamic download mechanisms, reducing the app size by 40%, improving download speed by 20%, and enhancing user retention and install rates by 15%.<br>
+                • Collaborated in the redesign of the App Lobby with UIKit which significantly increased user engagement by 18% and session duration by 22%, backed by A/B testing results.<br>
+                • Implemented modern iOS development practices with Swift and CoreData, ensuring efficient local data storage and enabling smooth app performance.<br>
+                • Utilized Firebase Analytics to track in-app user behavior, enabling data-driven feature optimizations, resulting in a 12% improvement in user retention and a 10% increase in daily active users.<br>
+                • Product: PartyPoker <a href="https://apps.apple.com/gb/app/partypoker-texas-holdem-poker/id687740281" target="_blank">https://apps.apple.com/gb/app/partypoker-texas-holdem-poker/id687740281</a>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">System Engineer<label style="font-style: italic; font-size: 12px; font-weight: 100;"> - Tata Consultancy Services (Digital)</label></h4>
+
+              <span>10/2020 - 02/2023</span>
+              <span style="color: lightgray; font-style: italic; font-size: 12px; font-weight: 100;">
+                <ion-icon name="location-outline" style="color: lightgray; float: left;" size="small"></ion-icon>
+                Kolkata, India
+              </span><br>
+
+              <p class="timeline-text">
+                • Developed a next-gen digital sales platform with AI-driven product recommendations using CoreML, increasing upsell and cross-sell rates by 25%, driving personalized experiences for over 5000 users.<br>
+                • Embedded VoIP functionality with CallKit, reducing average contact time by 15% and improving overall user communication efficiency for 5,000+ sales reps.<br>
+                • Architected the app using MVVM, ensuring modular, scalable, and testable code, leading to a 20% reduction in QA-reported issues and increasing development speed by 15% through improved code quality.<br>
+                • Built offline support with CoreData, enabling seamless access to sales data for 500+ sales representatives, even in areas with poor internet connectivity.<br>
+                • Created dynamic visual dashboards using the Charts framework, empowering sales teams with actionable insights, increasing sales conversion rates by 10%.<br>
+                • Product: Diagio EDGE 365 app (Enterprise access only)
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!--
+        - #My skills
+      -->
+        
+
+        <!--
+<section class="projects">
+  <h3 class="h3 skills-title">Projects</h3>
+  <div class="filter-select-box">
+    <button class="filter-select" style="border: none;" data-select>
+    </button>
+  </div>
+
+  <ul class="project-list">
+    <!-- ...existing code... -->
+  </ul>
+</section>
+-->
+
+      </article>
+
+
+      <!--
+        - #Education
+      -->
+
+      <article class="education" data-page="education">
+
+        <header>
+          <h2 class="h2 article-title">Education</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor in Information Technology</h4>
+
+              <span>2016 — 2020</span>
+
+              <p class="timeline-text">
+                Institute: Vignan Foundation for Science Technology and Research, Guntur
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Key Achievements</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Star Team Award</h4>
+              <p class="timeline-text">
+                Driven critical changes to the Diagio EDGE 365 app under tight deadlines, increasing user engagement by 15% and empowering sales representatives to leverage the internet calling feature more effectively.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">5 Star Hackerrank Coder</h4>
+              <p class="timeline-text">
+                Achieved 5 stars in problem-solving on HackerRank, showcasing strong algorithmic and coding skills.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Best Outgoing Student</h4>
+              <p class="timeline-text">
+                Was awarded the Best Outgoing Student from the university in 2020, recognized for outstanding academic and extracurricular achievements.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">GATE AIR 7577</h4>
+              <p class="timeline-text">
+                Achieved an All India Rank (AIR) of 7577 in the GATE Computer Science Engineering (CSE) exam in 2020.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">JEE (ADV) AIR 19602</h4>
+              <p class="timeline-text">
+                Achieved an All India Rank (AIR) of 19602 in the JEE Advanced 2016.
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="contact-form">
+          <ul class="contacts-list">
+
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:ssrivastava7031@gmail.com" class="contact-link">ssrivastava7031@gmail.com</a>
+              </div>
+  
+            </li>
+  
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+  
+                <a href="tel:+917905333679" class="contact-link">+91 7905333679</a>
+              </div>
+  
+            </li>
+
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="logo-github"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">Github</p>
+                <a href="https://github.com/coco-97" target="_blank" class="contact-link">Visit Github profile</a>
+              </div>
+  
+            </li>
+  
+            <li class="contact-item">
+              <div class="icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Hackerrank logo" width="24">
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Hackerrank</p>
+                <a href="https://www.hackerrank.com/profile/161FA07031IT" target="_blank" class="contact-link">Visit Hackerrank profile</a>
+              </div>
+            </li>
+           
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">LinkedIn</p>
+                <a href="https://www.linkedin.com/in/sreyash-srivastava" target="_blank" class="contact-link">Visit LinkedIn profile</a>
+              </div>
+  
+            </li>
+
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <a href="https://www.google.com/maps?ll=17.385044,78.486671&z=14&t=m&hl=en&gl=US&mapclient=embed&q=Hyderabad+India" target="_blank">
+                <address>Hyderabad, India</address>
+              </a>
+              </div>
+
+            </li>
+  
+          </ul>
+  
+        </section><br>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Hyderabad%20India+(Sreyash)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+     
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- Ensure navigation functionality is active -->
+  <script>
+    document.querySelectorAll('[data-nav-link]').forEach(link => {
+      link.addEventListener('click', () => {
+        const targetPage = link.getAttribute('data-nav-link');
+
+        // Remove active class from all tabs
+        document.querySelectorAll('.navbar-link').forEach(navLink => {
+          navLink.classList.remove('active');
+        });
+
+        // Add active class to the clicked tab
+        link.classList.add('active');
+
+        // Switch active page
+        document.querySelectorAll('[data-page]').forEach(page => {
+          page.classList.remove('active');
+        });
+        document.querySelector(`[data-page="${targetPage}"]`).classList.add('active');
+      });
+    });
+  </script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
